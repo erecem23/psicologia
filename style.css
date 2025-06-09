@@ -1,26 +1,26 @@
 /* ********** Custom Properties ********** */
 :root {
-  --first-color: white;
-  --first-alpha-color: rgba(217, 0, 98, 0.75);
-  --second-color: #4CAF50;
-  --second-alpha-color: rgba(20, 25, 45, 0.75);
-  --third-color: #501464;
-  --third-alpha-color: rgba(80, 20, 100, 0.75);
+  --first-color: #3399cc;           /* Azul principal */
+  --first-alpha-color: rgba(51,153,204, 0.83);
+  --second-color: #b2dfef;          /* Celeste claro */
+  --second-alpha-color: rgba(178,223,239, 0.80);
+  --third-color: #224870;            /* Azul oscuro para detalles */
+  --third-alpha-color: rgba(34,72,112,0.80);
   --white-color: #fff;
-  --gray-light-color: #f3f3f3;
-  --gray-color: #ccc;
-  --gray-dark-color: #666;
+  --gray-light-color: #f5fafd;      /* Fondo súper claro */
+  --gray-color: #cfd8dc;
+  --gray-dark-color: #78909c;
   --black-color: #000;
-  --link-color: #509ee3;
-  --title-color: #333;
-  --text-color: #222;
-  --white-alpha-color: rgba(255, 255, 255, 0.5);
-  --black-alpha-color: rgba(0, 0, 0, 0.5);
-  --font: "Arial", sans-serif;
+  --link-color: #3399cc;
+  --title-color: #224870;            /* Azul oscuro */
+  --text-color: #224870;             /* Azul oscuro para texto principal */
+  --white-alpha-color: rgba(255, 255, 255, 0.7);
+  --black-alpha-color: rgba(0, 0, 0, 0.32);
   --max-width: 1200px;
   --header-height: 4rem;
+  --accent-color: #9ad0c2;           /* Menta pastel para detalles */
+  --font: 'Raleway', Arial, sans-serif;
 }
-
 /* ********** Reset ********** */
 html {
   box-sizing: border-box;
