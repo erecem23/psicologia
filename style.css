@@ -801,3 +801,156 @@ progress::-moz-progress-bar {
     grid-column: span 3;
   }
 }
+
+/* --- HERO / PORTADA --- */
+.hero-image-opacity {
+  background-color: rgba(0,0,0,0.48) !important;
+}
+
+.hero-image-title {
+  font-size: 3.2rem !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.02em;
+  text-shadow: 0 4px 14px rgba(0,0,0,0.30);
+  margin-bottom: 2rem;
+}
+
+.btn {
+  border-radius: 2rem !important;
+  padding: 1.1rem 2.5rem !important;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  font-size: 1.15rem !important;
+  background: linear-gradient(90deg, #388e3c, #4caf50 80%) !important;
+  box-shadow: 0 4px 20px rgba(76, 175, 80, 0.08);
+  transition: background 0.3s, transform 0.2s;
+}
+.btn:hover {
+  background: linear-gradient(90deg, #4caf50, #388e3c 80%) !important;
+  transform: translateY(-2px) scale(1.07);
+  opacity: 1;
+}
+
+/* --- HEADER Y MENÚ --- */
+.header {
+  background: rgba(76, 175, 80, 0.96) !important;
+  backdrop-filter: blur(4px);
+  box-shadow: 0 2px 16px rgba(76,175,80,0.08);
+}
+.logo a {
+  font-family: 'Montserrat', 'Raleway', sans-serif !important;
+  font-size: 2.3rem !important;
+  letter-spacing: 0.04em;
+  color: #fff !important;
+  text-shadow: 0 2px 8px rgba(76,175,80,0.14);
+}
+.menu a {
+  font-size: 1.15rem !important;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+.menu a:hover {
+  background: #fff !important;
+  color: #4caf50 !important;
+}
+
+/* --- SOBRE MÍ --- */
+.gray-scale.avatar {
+  border-radius: 50% !important;
+  width: 180px !important;
+  height: 180px !important;
+  box-shadow: 0 6px 28px rgba(76, 175, 80, 0.15);
+  border: 4px solid #fff;
+  object-fit: cover;
+  margin-bottom: 1.2rem;
+}
+.about > article {
+  background: #fff;
+  border-radius: 2rem;
+  box-shadow: 0 2px 20px rgba(76, 175, 80, 0.06);
+  padding: 2.2rem 1.7rem;
+  margin-bottom: 1.7rem;
+}
+
+/* --- SERVICIOS --- */
+.service-card {
+  background: #f7fef9;
+  border-radius: 1.5rem;
+  box-shadow: 0 2px 16px rgba(76,175,80,0.10);
+  margin-bottom: 2.2rem;
+  padding: 2.2rem 1.2rem 1.2rem 1.2rem;
+  transition: box-shadow 0.2s, background 0.2s, transform 0.2s;
+}
+.service-card:hover {
+  box-shadow: 0 8px 30px rgba(76,175,80,0.13);
+  transform: translateY(-6px) scale(1.03);
+  background: #fff;
+}
+.service-card svg {
+  width: 3.3rem !important;
+  height: 3.3rem !important;
+  margin-bottom: 1.3rem;
+  fill: #4caf50 !important;
+  transition: transform 0.2s;
+}
+
+/* --- CONTACTO Y FORMULARIO --- */
+.contact-card {
+  background: #fff;
+  border-radius: 1.2rem !important;
+  box-shadow: 0 2px 16px rgba(80,20,100,0.09) !important;
+  transition: box-shadow 0.3s, transform 0.2s;
+}
+.contact-card:hover {
+  box-shadow: 0 6px 32px rgba(76,175,80,0.17) !important;
+  transform: scale(1.03);
+}
+.contact-form {
+  background: #fff;
+  border-radius: 1.5rem !important;
+  box-shadow: 0 4px 24px rgba(76,175,80,0.13) !important;
+  padding: 2.2rem 1.5rem !important;
+}
+.contact-form input,
+.contact-form textarea {
+  border-radius: 0.8rem !important;
+  border: 1px solid #e0e0e0 !important;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.03);
+  margin-bottom: 1.2rem;
+}
+
+/* --- FOOTER --- */
+.footer {
+  margin: 0 !important;
+  padding: 1.2rem 0 !important;
+  background: #388e3c !important;
+  color: #fff !important;
+  font-size: 1.07rem !important;
+  letter-spacing: 0.02em;
+  text-align: center;
+  box-shadow: 0 -2px 14px rgba(76,175,80,0.08);
+}
+
+/* --- ESPACIADOS Y DETALLES --- */
+.section {
+  padding: 3.5rem 1.3rem !important;
+}
+.section-title {
+  font-size: 2.2rem !important;
+  padding: 1.2rem !important;
+  width: 330px !important;
+  background: #e8f7e6 !important;
+  border-radius: 2rem !important;
+  border: none !important;
+  color: #4caf50 !important;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  box-shadow: 0 2px 18px rgba(76,175,80,0.08);
+}
+@media screen and (max-width: 768px) {
+  .hero-image-title { font-size: 2.2rem !important; }
+  .section-title { font-size: 1.3rem !important; width: 220px !important; }
+  .about > article { padding: 1rem !important; }
+  .service-card { padding: 1.1rem !important; }
+}
+
