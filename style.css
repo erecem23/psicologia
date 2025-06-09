@@ -147,42 +147,5 @@
   background: none !important;
 }
 
-.hero-image-opacity {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  /* Gradiente moderno de azul a celeste, puedes cambiar los tonos si quieres */
-  background: linear-gradient(120deg, #3399cc 0%, #b2dfef 100%) !important;
-  opacity: 1 !important;
-}
-
-.hero-image-title {
-  color: #fff !important;
-  font-size: 3.2rem !important;
-  font-weight: 900 !important;
-  letter-spacing: 0.03em;
-  text-shadow: 0 4px 22px #2248703a;
-  margin-bottom: 2.3rem;
-}
-
-.hero-image-content .btn,
-.btn {
-  border-radius: 2.2rem !important;
-  background: linear-gradient(90deg, #3399cc 60%, #9ad0c2 100%) !important;
-  color: #fff !important;
-  font-weight: 700;
-  font-size: 1.16rem !important;
-  padding: 1.1rem 2.8rem !important;
-  border: none !important;
-  box-shadow: 0 4px 24px #3399cc13;
-  transition: background 0.25s, transform 0.17s;
-}
-.btn:hover, .hero-image-content .btn:hover {
-  background: linear-gradient(90deg, #9ad0c2 0%, #3399cc 100%) !important;
-  color: #224870 !important;
-  transform: translateY(-2px) scale(1.05);
-  opacity: 1;
-}
+.
 
